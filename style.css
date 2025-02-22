@@ -175,6 +175,7 @@ a{
     .hide{
         display: none;
     }
+   
 }
 
 .card{
@@ -330,4 +331,129 @@ a{
 .foot-pic{
     width: 11%;
     height: 10%;
+}
+
+@media(max-width:810px)
+{
+    .nav{
+        width: 20vh;
+    }
+    .library{
+        width: 20vh;
+    }
+    .sidebar{
+        width: 220px;
+    }
+}
+
+@media(max-width:720px)
+{
+    .album{
+        display: none;
+    }
+    .controls{
+        display: none;
+    }
+    .player{
+        width: 47%;
+        margin-left: 19%;
+    }
+}
+
+@media(max-width:670px)
+{
+    .nav{
+        width: 20vh;
+    }
+    .library{
+        width: 20vh;
+    }
+    .sidebar{
+        width: 220px;
+    }
+   
+    
+}
+
+@media(max-width:650px)
+{
+    .sticky-nav-options > button{
+          width: 42%;
+          font-size: 10px;
+    }
+
+    .sticky-nav-icons{
+        display: none;
+    }
+    
+}
+
+@media(max-width:540px)
+{
+    .sticky-nav-options > button{
+          width: 42%;
+          font-size: 10px;
+    }
+
+    .sticky-nav-icons{
+        display: none;
+    }
+
+    
+    .nav{
+        width: 15vh;
+    }
+    .library{
+        width: 15vh;
+    }
+    .sidebar{
+        width: 173px;
+    }
+    .main-content{
+        width: 10px;
+    }
+}
+
+@media(max-width:465px)
+{
+    .sticky-nav-options > button{
+          width: 42%;
+          font-size: 10px;
+    }
+
+    .sticky-nav-icons{
+        display: none;
+    }
+
+    
+    .nav{
+        width: 15vh;
+    }
+    .library{
+        width: 15vh;
+    }
+    .sidebar{
+        width: 173px;
+    }
+    .main-content{
+        width: 10px;
+    }
+
+    .lib-box > .box{
+        width: 8vh;
+         
+    
+    }
+    .box > button
+    {
+        width: 75px;
+        height: 27px;
+        font-size: 9px;
+    }
+    .box p{
+        font-size: 12px;
+    }
+    #firstcard{
+        width: 68%;
+    }
 }
