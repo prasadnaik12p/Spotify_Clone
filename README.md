@@ -4,8 +4,6 @@ A simple Spotify Clone built using HTML & CSS to replicate the UI of the popular
 
 📌 Features
 
-✔️ Responsive design for different screen sizes
-
 ✔️ Stylish and modern UI inspired by Spotify
 
 ✔️ Interactive hover effects and animations
